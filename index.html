@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Students Detail</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="reset.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container bg-light mt-5">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-5">
+				<h2>Student's Details</h2>
+			</div>
+		</div><br><br>
+		<div class="row">
+			<div class="col-lg-1 col-md-1"></div>
+			<div class="col-lg-2 col-md-3 col-sm-6">
+				<b>First Name :</b>
+			</div>
+			<div class="col-lg-9 col-md-8 col-sm-6">
+				<input type="text" class="form-control" name="fname" placeholder="Enter Your FirstName" id="fname">
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-1 col-md-1"></div>
+			<div class="col-lg-2 col-md-3 col-sm-6">
+				<b>Last Name :</b>
+			</div>
+			<div class="col-lg-9 col-md-8 col-sm-6">
+				<input type="text" class="form-control" name="lname" placeholder="Enter Your LastName" id="lname">
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-1 col-md-1"></div>
+			<div class="col-lg-2 col-md-3 col-sm-6">
+				<b>E-mail &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</b>
+			</div>
+			<div class="col-lg-9 col-md-8 col-sm-6">
+				<input type="mail" class="form-control" name="email" placeholder="Enter Your Validity E-mail" id="email">
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-1 col-md-1"></div>
+			<div class="col-lg-2 col-md-3 col-sm-6">
+				<b>Age &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</b>
+			</div>
+			<div class="col-lg-9 col-md-8 col-sm-6">
+				<input type="number" class="form-control" name="number" placeholder="Enter Your Age" id="age">
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 ml-5">
+				<h4><u>UG-Details</u></h4>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-1 col-md-1"></div>
+			<div class="col-lg-2 col-md-3 col-sm-6">
+				<b>Collage Name :</b>
+			</div>
+			<div class="col-lg-9 col-md-8 col-sm-6">
+				<input type="text" class="form-control" name="col name" placeholder="Enter Your Collage Name" id="ug-colname">
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-1 col-md-1"></div>
+			<div class="col-lg-2 col-md-3 col-sm-6">
+				<b>Address &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</b>
+			</div>
+			<div class="col-lg-9 col-md-8 col-sm-6">
+				<input type="text" class="form-control" name="address" placeholder="Enter Your Address" id="ug-address">
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<b><u>CGPA</u></b>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-12">
+				<b><u>Year 1</u></b>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+				<b><u>English Marks</u></b>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-1 col-md-1"></div>
+			<div class="col-lg-2 col-md-3 col-sm-6">
+				<b>Eng Mark1</b>
+			</div>
+			<div class="col-lg-9 col-md-8 col-sm-6">
+				<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr1-eng-m1">
+			</div>
+		</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Eng Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr1-eng-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Tamil Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr1-tam-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr1-tam-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Maths Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr1-mat-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr1-mat-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h6><u>Year 2</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>English Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Eng Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr2-eng-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Eng Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr2-eng-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Tamil Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr2-tam-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr2-tam-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Maths Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr2-mat-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr2-mat-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h6><u>Year 3</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>English Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Eng Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr3-eng-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Eng Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr3-eng-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Tamil Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr3-tam-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr3-tam-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Maths Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr3-mat-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="ug-yr3-mat-m2">
+				</div>
+			</div><br>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 ml-5">
+				<h4><u>PG-Details</u></h4>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-1 col-md-1"></div>
+			<div class="col-lg-2 col-md-3 col-sm-6">
+				<b>Collage Name :</b>
+			</div>
+			<div class="col-lg-9 col-md-8 col-sm-6">
+				<input type="text" class="form-control" name="col name" placeholder="Enter Your Collage Name" id="pg-colname">
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-1 col-md-1"></div>
+			<div class="col-lg-2 col-md-3 col-sm-6">
+				<b>Address &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</b>
+			</div>
+			<div class="col-lg-9 col-md-8 col-sm-6">
+				<input type="text" class="form-control" name="address" placeholder="Enter Your Address" id="pg-address">
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<h6><u>CGPA</u></h6>
+			</div>
+		</div><br>
+		<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h6><u>Year 1</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>English Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Eng Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr1-eng-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Eng Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr1-eng-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Tamil Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr1-tam-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr1-tam-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Maths Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr1-mat-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr1-mat-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h6><u>Year 2</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>English Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Eng Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr2-eng-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Eng Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr2-eng-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Tamil Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr2-tam-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr2-tam-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Maths Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr2-mat-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr2-mat-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h6><u>Year 3</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>English Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Eng Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr3-eng-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Eng Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr3-eng-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Tamil Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr3-tam-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Tam Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr3-tam-m2">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<h6><u>Maths Marks</u></h6>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark1</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr3-mat-m1">
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-lg-1 col-md-1"></div>
+				<div class="col-lg-2 col-md-3 col-sm-6">
+					<b>Maths Mark2</b>
+				</div>
+				<div class="col-lg-9 col-md-8 col-sm-6">
+					<input type="number" class="form-control" name="year1" placeholder="Enter Your mark" id="pg-yr3-mat-m2">
+				</div>
+			</div><br>	
+			<div class="col-lg-12 col-md-12 col-sm-12 text-center mb-5">
+				<button class="bg-success text-light" onclick="myFunction()">Submit</button>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+	var firstname;
+	var lastname; 
+	var email;
+	var age;
+	var ugcolname;
+	var ugaddress;
+	var ugyr1engm1;
+	var ugyr1engm2;
+	var ugyr1tamm1;
+	var ugyr1tamm2;
+	var ugyr1matm1;
+	var ugyr1matm2;
+	var ugyr2engm1;
+	var ugyr2engm2;
+	var ugyr2tamm1;
+	var ugyr2tamm2;
+	var ugyr2matm1;
+	var ugyr2matm2;
+	var ugyr3engm1;
+	var ugyr3engm2;
+	var ugyr3tamm1;
+	var ugyr3tamm2;
+	var ugyr3matm1;
+	var ugyr3matm2;
+	var pgcolname;
+	var pgaddress;
+	var pgyr1engm1;
+	var pgyr1engm2;
+	var pgyr1tamm1;
+	var pgyr1tamm2;
+	var pgyr1matm1;
+	var pgyr1matm2;
+	var pgyr2engm1;
+	var pgyr2engm2;
+	var pgyr2tamm1;
+	var pgyr2tamm2;
+	var pgyr2matm1;
+	var pgyr2matm2;
+	var pgyr3engm1;
+	var pgyr3engm2;
+	var pgyr3tamm1;
+	var pgyr3tamm2;
+	var pgyr3matm1;
+	var pgyr3matm2;
+
+
+	function myFunction() {
+		firstname = document.getElementById('fname').value;
+		lastname = document.getElementById('lname').value;
+		email = document.getElementById('email').value;
+		age = document.getElementById('age').value;
+		ugcolname = document.getElementById('ug-colname').value;
+		ugaddress = document.getElementById('ug-address').value;
+		ugyr1engm1 = document.getElementById('ug-yr1-eng-m1').value;
+		ugyr1engm2 = document.getElementById('ug-yr1-eng-m2').value;
+		ugyr1tamm1 = document.getElementById('ug-yr1-tam-m1').value;
+		ugyr1tamm2 = document.getElementById('ug-yr1-tam-m2').value;
+		ugyr1matm1 = document.getElementById('ug-yr1-mat-m1').value;
+		ugyr1matm2 = document.getElementById('ug-yr1-mat-m2').value;
+		ugyr2engm1 = document.getElementById('ug-yr2-eng-m1').value;
+		ugyr2engm2 = document.getElementById('ug-yr2-eng-m2').value;
+		ugyr2tamm1 = document.getElementById('ug-yr2-tam-m1').value;
+		ugyr2tamm2 = document.getElementById('ug-yr2-tam-m2').value;
+		ugyr2matm1 = document.getElementById('ug-yr2-mat-m1').value;
+		ugyr2matm2 = document.getElementById('ug-yr2-mat-m2').value;
+		ugyr3engm1 = document.getElementById('ug-yr3-eng-m1').value;
+		ugyr3engm2 = document.getElementById('ug-yr3-eng-m2').value;
+		ugyr3tamm1 = document.getElementById('ug-yr3-tam-m1').value;
+		ugyr3tamm2 = document.getElementById('ug-yr3-tam-m2').value;
+		ugyr3matm1 = document.getElementById('ug-yr3-mat-m1').value;
+		ugyr3matm2 = document.getElementById('ug-yr3-mat-m2').value;
+		pgcolname = document.getElementById('pg-colname').value;
+		pgaddress = document.getElementById('pg-address').value;
+		pgyr1engm1 = document.getElementById('pg-yr1-eng-m1').value;
+		pgyr1engm2 = document.getElementById('pg-yr1-eng-m2').value;
+		pgyr1tamm1 = document.getElementById('pg-yr1-tam-m1').value;
+		pgyr1tamm2 = document.getElementById('pg-yr1-tam-m2').value;
+		pgyr1matm1 = document.getElementById('pg-yr1-mat-m1').value;
+		pgyr1matm2 = document.getElementById('pg-yr1-mat-m2').value;
+		pgyr2engm1 = document.getElementById('pg-yr2-eng-m1').value;
+		pgyr2engm2 = document.getElementById('pg-yr2-eng-m2').value;
+		pgyr2tamm1 = document.getElementById('pg-yr2-tam-m1').value;
+		pgyr2tamm2 = document.getElementById('pg-yr2-tam-m2').value;
+		pgyr2matm1 = document.getElementById('pg-yr2-mat-m1').value;
+		pgyr2matm2 = document.getElementById('pg-yr2-mat-m2').value;
+		pgyr3engm1 = document.getElementById('pg-yr3-eng-m1').value;
+		pgyr3engm2 = document.getElementById('pg-yr3-eng-m2').value;
+		pgyr3tamm1 = document.getElementById('pg-yr3-tam-m1').value;
+		pgyr3tamm2 = document.getElementById('pg-yr3-tam-m2').value;
+		pgyr3matm1 = document.getElementById('pg-yr3-mat-m1').value;
+		pgyr3matm2 = document.getElementById('pg-yr3-mat-m2').value;
+
+
+
+
+		var n = { "Fname":firstname,
+				  "Lname":lastname,
+				  "Email":email,
+				  "Age":age,
+				  UG:{ "collagename":ugcolname,
+				  	   "address":ugaddress,
+				  	   CGPA:{
+				  	   		year1:{
+				  	   			English:{ "mark1":ugyr1engm1,
+				  	   					  "mark2":ugyr1engm2,
+				  	   					},
+				  	   			Tamil:{ "mark1":ugyr1tamm1,
+				  	   					"mark2":ugyr1tamm2,
+				  	   				  },
+				  	   			Maths:{ "mark1":ugyr1matm1,
+				  	   					"mark2":ugyr1matm2,
+				  	   			},
+				  	   		},
+				  	   		year2:{
+				  	   			English:{ "mark1":ugyr2engm1,
+				  	   					  "mark2":ugyr2engm2,
+				  	   					},
+				  	   			Tamil:{ "mark1":ugyr2tamm1,
+				  	   					"mark2":ugyr2tamm2,
+				  	   				  },
+				  	   			Maths:{ "mark1":ugyr2matm1,
+				  	   					"mark2":ugyr2matm2,
+				  	   			},
+				  	   		},
+				  	   		year3:{
+				  	   			English:{ "mark1":ugyr3engm1,
+				  	   					  "mark2":ugyr3engm2,
+				  	   					},
+				  	   			Tamil:{ "mark1":ugyr3tamm1,
+				  	   					"mark2":ugyr3tamm2,
+				  	   				  },
+				  	   			Maths:{ "mark1":ugyr3matm1,
+				  	   					"mark2":ugyr3matm2,
+				  	   			},
+				  	   		},
+				  	   },
+				  },
+				  PG:{ "collagename":pgcolname,
+				  	   "address":pgaddress,
+				  	   CGPA:{
+				  	   		year1:{
+				  	   			English:{ "mark1":pgyr1engm1,
+				  	   					  "mark2":pgyr1engm2,
+				  	   					},
+				  	   			Tamil:{ "mark1":pgyr1tamm1,
+				  	   					"mark2":pgyr1tamm2,
+				  	   				  },
+				  	   			Maths:{ "mark1":pgyr1matm1,
+				  	   					"mark2":pgyr1matm2,
+				  	   			},
+				  	   		},
+				  	   		year2:{
+				  	   			English:{ "mark1":pgyr2engm1,
+				  	   					  "mark2":pgyr2engm2,
+				  	   					},
+				  	   			Tamil:{ "mark1":pgyr2tamm1,
+				  	   					"mark2":pgyr2tamm2,
+				  	   				  },
+				  	   			Maths:{ "mark1":pgyr2matm1,
+				  	   					"mark2":pgyr2matm2,
+				  	   			},
+				  	   		},
+				  	   		year3:{
+				  	   			English:{ "mark1":pgyr3engm1,
+				  	   					  "mark2":pgyr3engm2,
+				  	   					},
+				  	   			Tamil:{ "mark1":pgyr3tamm1,
+				  	   					"mark2":pgyr3tamm2,
+				  	   				  },
+				  	   			Maths:{ "mark1":pgyr3matm1,
+				  	   					"mark2":pgyr3matm2,
+				  	   			},
+				  	   		},
+				  	   },
+				  },
+
+		};
+
+		console.log(n)
+	}
+</script>
+</html>
